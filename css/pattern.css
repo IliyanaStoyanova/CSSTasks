@@ -1,0 +1,7 @@
+.pattern {
+  width: 425px;
+  height: 400px;
+  background-image: url("../images/pattern.png");
+  background-size: 80px 80px;
+  background-repeat: repeat;
+}
