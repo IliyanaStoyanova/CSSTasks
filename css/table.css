@@ -1,0 +1,33 @@
+.container table {
+  width: 800px;
+}
+.container table td,
+th {
+  text-align: center;
+}
+
+.container table,
+th,
+td {
+  border: 1px solid #b0b0b0;
+  border-collapse: collapse;
+}
+
+.container table thead th {
+  font-size: 26px;
+  padding: 26px 0;
+}
+
+.container table tbody tr:nth-of-type(even),
+.container table thead tr {
+  background-color: #d6d6d6;
+}
+
+.container table tbody th {
+  font-size: 20px;
+  padding: 16px 0;
+}
+
+.container table tbody td {
+  padding: 8px 0;
+}

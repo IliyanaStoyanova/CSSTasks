@@ -1,0 +1,59 @@
+.box {
+  display: flex;
+  width: 650px;
+  height: 70px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+div.box > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-box {
+  width: 150px;
+  background-color: #ff8080;
+  color: #c94b4b;
+}
+
+.second-box {
+  width: 50px;
+  background-color: #8080ff;
+  color: #3030f7;
+}
+
+.third-box {
+  width: 150px;
+  background-color: #80c080;
+  color: #008a00;
+}
+
+.fourth-box {
+  width: 50px;
+  background-color: #c080c0;
+  color: #740774;
+}
+
+.fifth-box {
+  width: 150px;
+  background-color: #ffd280;
+  color: #e19200;
+}
+
+.sixth-box {
+  width: 50px;
+  background-color: #80ffff;
+  color: #00b1b1;
+}
+
+.second-box ~ .second-box, 
+.fourth-box ~ .fourth-box {
+  width: 150px;
+}
+
+.third-box ~ .third-box,
+.fifth-box ~ .fifth-box {
+  width: 50px;
+}
